@@ -1,0 +1,39 @@
+{
+  "name": "testcafe-gherkin-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Dan Rusu",
+  "license": "MIT",
+  "scripts": {
+    "test": "node gherkin-testcafe-runner.js browser=chrome",
+    "depcheck": "npx depcheck --ignores=\"testcafe-reporter-cucumber-json\" --ignore-patterns=\"patch/**/*.js\"",
+    "report": "node js-utils/report-generator.js",
+    "x": "npm test"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^8.7.0",  
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",    
+    "dotenv": "^8.2.0",        
+    "gherkin-parse": "^1.0.6",
+    "gherkin-testcafe": "5.5.0",
+    "glob": "^8.0.3",
+    "lodash": "^4.17.21",
+    "log4js": "^6.4.1",
+    "moment": "^2.29.1",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "node-fetch": "^2.6.7",
+    "screenshot-desktop": "~1.12.3",
+    "testcafe": "^2.0.0",
+    "testcafe-reporter-cucumber-json": "^6.3.0",
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.1",
+    "mocha": "^10.0.0"
+  },
+  "overrides": {
+    "minimist": "1.2.6"
+  }
+}

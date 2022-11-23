@@ -1,0 +1,31 @@
+{
+  "args": {
+    "appName": "sit_e2e-automation-testing-vf-corp",
+    "appVersion": "2.0",
+    "reportFolder": "cucumber-json-reports"
+  },
+  "noisyTags": [
+    "(t)",
+    "able",
+    "and",
+    "async",
+    "but",
+    "can",
+    "cannot",
+    "did",
+    "feature",
+    "fixture",
+    "given",
+    "not",
+    "only",
+    "scenario",
+    "should",
+    "spec",
+    "test",
+    "the",
+    "then",
+    "when",
+    "with"
+  ],
+  "verbose": false
+}
